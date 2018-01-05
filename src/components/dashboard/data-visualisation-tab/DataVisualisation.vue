@@ -25,7 +25,7 @@
   import DonutChartData from './DonutChartData'
   import DataTable from '../../vuestic-components/vuestic-datatable/VuesticDataTable.vue'
   import Vue from 'vue'
-  import BadgeColumn from '../../tables/BadgeColumn.vue'
+  import BadgeColumn from '../../vuestic-components/vuestic-badge/VuesticBadge.vue'
   import LocalData from '../../vuestic-components/vuestic-datatable/data/local-data'
   import FieldsDef from './fields-definition'
 

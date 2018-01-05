@@ -68,7 +68,8 @@
       },
       lastStepLabel: {default: 'Confirm'},
       onNext: {},
-      onBack: {}
+      onBack: {},
+      onComplete: {}
     },
     data () {
       return {

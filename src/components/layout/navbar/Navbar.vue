@@ -2,7 +2,8 @@
   <nav class="navbar app-navbar navbar-toggleable-md">
     <div class="navbar-brand-container d-flex align-items-center justify-content-start">
       <a class="navbar-brand" href="#">
-        <i class="i-vuestic"></i>
+        <!--<i class="i-vuestic"></i>-->
+        <h2 style="text-align: center">tabibu</h2>
       </a>
     </div>
 

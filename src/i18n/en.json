@@ -123,25 +123,12 @@
   },
   "menu": {
     "auth": "Auth",
-    "buttons": "Buttons",
-    "charts": "Charts",
     "dashboard": "Dashboard",
-    "extra": "Extra",
-    "formElements": "Form Elements",
-    "forms": "Forms",
-    "formWizards": "Form Wizards",
-    "grid": "Grid",
-    "icons": "Icons",
-    "spinners": "Spinners",
     "login": "Login",
-    "maps": "Maps",
-    "modals": "Modals",
-    "progressBars": "Progress Bars",
     "signUp": "Sign up",
-    "statistics": "Statistics",
-    "tables": "Tables",
-    "typography": "Typography",
-    "uiElements": "UI Elements"
+    "patients" : "Patients",
+    "allPatients" : "All Patients",
+    "newPatient" : "New Patient"
   },
   "messages": {
     "all": "See all messages",
@@ -183,6 +170,28 @@
     "basic": "Basic Table",
     "styled": "Colors, Icons, Labels",
     "advanced": "Search & Pagination",
+    "headings": {
+      "city": "City",
+      "email": "Email",
+      "name": "Name",
+      "score": "Score"
+    }
+  },
+  "patients": {
+    "title": "Current Patients",
+    "addPatient": "Add New Patient",
+    "form": {
+      "title": "Add New Patient",
+      "stepOne": "Step 1. Patient Details",
+      "name" : "Name",
+      "email": "Email Address",
+      "mobile": "Mobile Number",
+      "altMobile": "Alternative Mobile Number",
+      "stepTwo": "Step 2. Location",
+      "stepThree": "Step 3. Next of Kin",
+      "stepFour": "Step 3. Confirm Details",
+      "confirm" : "Confirm Selection"
+    },
     "headings": {
       "city": "City",
       "email": "Email",

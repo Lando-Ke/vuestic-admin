@@ -4,6 +4,7 @@ import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 import VeeValidate from 'vee-validate'
 import App from './App'
+import * as firebase from 'firebase'
 import store from './store'
 import router from './router'
 import { sync } from 'vuex-router-sync'
@@ -42,5 +43,14 @@ new Vue({
   router,
   store,
   template: '<App/>',
-  components: { App }
+  components: {App},
+  created () {
+    firebase.initializeApp({
+      apiKey: 'AIzaSyBYb-ibXJcI2evc32qafhbi2N-04_u1Crw',
+      authDomain: 'palladium-2292e.firebaseapp.com',
+      databaseURL: 'https://palladium-2292e.firebaseio.com',
+      projectId: 'palladium-2292e',
+      storageBucket: 'palladium-2292e.appspot.com'
+    })
+  }
 })

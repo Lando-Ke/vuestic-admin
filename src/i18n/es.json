@@ -133,7 +133,8 @@
     "statistics": "Estadisticas",
     "tables": "Tablas",
     "typography": "Tipografía",
-    "uiElements": "Elementos UI"
+    "uiElements": "Elementos UI",
+    "patients": "pacientes"
   },
   "messages": {
     "all": "Ver todos los mensajes",
